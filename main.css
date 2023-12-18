@@ -1,0 +1,316 @@
+@font-face {
+    font-family: myFont;
+    src: url( "./assets/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    position: relative;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 0 20px;
+}
+
+.logo-img{
+    margin-top: 13px;
+}
+
+li:hover a{
+    color: blue;
+    cursor: pointer;
+}
+
+.main{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url(./assets/Group\ 75.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+}
+
+.main-text{
+    width: 50%;
+    height: 100%;
+}
+
+.main-image{
+    width: 50%;
+    height: 100%;
+}
+
+.main-image img{
+    width: 50%;
+}
+
+.main-title{
+    margin-top: 100px;
+}
+
+.subtitle {
+    width: 70%;
+    color: grey;
+    line-height: 25px;
+}
+
+.btn-contact{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 25px 35px;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+.main-image img {
+    position: absolute;
+    right: 0;
+}
+
+.client {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    
+}
+
+.client-title {
+    width: 30%;
+}
+
+.client-logos {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-logos img {
+    width: 200px;
+    object-fit: none;
+    object-position: center;
+}
+
+
+
+.business{
+    height: 100vh;
+    background: url(assets/Group\ 76.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.business-text{
+    width: 40%;
+    margin-top: 300px;
+}
+
+.business-card{
+    width: 60%;
+    display: flex;
+}   
+
+.card{
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(152, 152, 152, 0.2);
+    margin: 30px 0;
+    box-sizing: border-box;
+}
+
+.first-col, 
+.second-col{
+    margin: 0 15px;
+}
+
+.first-col{
+    margin-top: 50px;
+}
+
+.card-img{
+    display: inline-block;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.card-subtitle{
+    color: grey;
+}
+
+.video-section {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    background: url(assets/Great\ Since.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.video{
+    width: 50%;
+}
+
+.video iframe {
+    height: 400PX;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(49, 34, 34, 0.226);
+}
+
+.video-text{
+    width: 50%;
+}
+
+.rasm{
+    background: url(assets/Group\ 77.png);
+}
+.comments{
+    display: flex;
+}
+
+.section{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+}
+
+.comments-text h3{
+    margin-top: 100px;
+}
+
+.comments-text p{
+    width: 50%;
+}
+
+.dots{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 255, 0.219);
+    border-radius: 100%;
+}
+
+.active {
+    background-color: blue;
+}
+
+.subscribe{
+    width: 90%;
+    height: 500px;
+    padding: 50px 0;
+    margin: 0 auto;
+    background: url(./assets/Group\ 78.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form {
+    width: 80%;
+    height: 200px;
+    margin:0 auto ;
+    margin-top: 100px;
+    border-radius: 50px;
+    background-color: #f4f9ff;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.form-text{
+    padding: 30px 100px;
+}
+
+.form-input{
+    background-color: #2639ed;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border-top-left-radius: 130px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.form-input input{
+    background-color: white;
+    border: none;
+    position: absolute;
+    border-radius: 50px;
+    padding: 20px;
+    width: 350px;
+    top: 70px;
+    left: -30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.189);
+}
+
+.form-input button{
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    background-color: #2639ed;
+
+}
+
+
+.footer{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-top: 0.5 solid grey;
+    border-bottom: 0.5 solid grey;
+}
+
